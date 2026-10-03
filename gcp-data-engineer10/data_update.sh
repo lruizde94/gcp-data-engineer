@@ -1,0 +1,1 @@
+gcloud projects add-iam-policy-binding gcp-data-engineer-curso-10 --member="user:energeticgamingworld@gmail.com"  --role="roles/bigquery.dataViewer"

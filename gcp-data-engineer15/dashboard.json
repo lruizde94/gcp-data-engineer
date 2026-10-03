@@ -1,0 +1,21 @@
+{
+    "displayName": "BigQuery Monitoring Dashboard I",
+    "gridLayout": {
+      "widgets": [
+        {
+          "title": "Consultas por segundo",
+          "xyChart": {
+            "dataSets": [
+              {
+                "timeSeriesQuery": {
+                  "timeSeriesFilter": {
+                    "filter": "metric.type=\"bigquery.googleapis.com/query/statement_scanned_bytes_billed\""
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

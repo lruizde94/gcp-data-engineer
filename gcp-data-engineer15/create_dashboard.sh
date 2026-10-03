@@ -1,0 +1,1 @@
+gcloud monitoring dashboards create --config-from-file=dashboard.json

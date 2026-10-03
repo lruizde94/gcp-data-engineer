@@ -1,0 +1,2 @@
+resource.type="bigquery_project"
+severity>=ERROR
